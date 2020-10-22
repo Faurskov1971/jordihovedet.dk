@@ -1,6 +1,9 @@
 [
   {"name": "Forside", "url": "/"},
-  {"name": "Contact", "url": "/contact"},
+  {"name": "Danmarkskort", "url": "/danmarkskort"},
+  {"name": "Quiz", "url": "/quiz"},
+  {"name": "Skoleavis", "url": "/skoleavis"},
+  {"name": "Film", "url": "/film"},
   {"name": "Options", "url": "", "dropdownItems": [
     {"name": "Option 1", "url": "/test"},
     {"name": "Option 2", "url": "/test"},

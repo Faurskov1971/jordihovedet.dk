@@ -5,24 +5,22 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import danmarkskort from '../assets/images/danmarkPrikker_small.png'
 
-function data_gammel_f(e){
-  e.preventDefault();
-  alert(e.target.id);
-}
-
 function data_f(e){
   const aktuel = e.target.id;
   const data1 = [];
   const data2 = [];
   const data3 = [];
+  const data4 = [];
   
  data1[0]= ["Rubjerg Knude - Lønstrup Klint"];
  data2[0]= ["Istidens gletsjere skubbede ler og sandlag op i stejle flager, som se i klinten."];
- data3[0]= ["www.naturnet.dk*www.rubjergknude.dk"];
+ data3[0]= ["www.naturnet.dk"];
+ data4[0]= ["www.rubjergknude.dk"];
   
  data1[1]= ["Bulbjerg"];
  data2[1]= ["Her danner bryozokalken et forbjerg i Jammerbugt. Tidligere stod den 16 m høje strandpille Skarreklit 60 m ude i vandet."];
- data3[1]= ["www.naturnet.dk*www.bulbjerg.dk"];
+ data3[1]= ["www.naturnet.dk"];
+ data4[1]= ["www.bulbjerg.dk"];
   
  data1[2]= ["Vokslev Kalkgrav"];
  data2[2]= ["I kalkgraven, hvor brydning er ophørt, er det stadig muligt at studere skrivekridt mm."];
@@ -42,7 +40,8 @@ function data_f(e){
   
  data1[6]= ["Fur"];
  data2[6]= ["Moler med askelag kan du møde i kystklinter og nedlagte grave på øens nordlige del."];
- data3[6]= ["www.naturnet.dk*www.furmuseum.dk"];
+ data3[6]= ["www.naturnet.dk"];
+ data4[6]= ["www.furmuseum.dk"];
   
  data1[7]= ["Ertebølle Hoved"];
  data2[7]= ["Klint med moler og askelag danner et forbjerg i Limfjorden tæt ved den berømte køkkenmødding fra Jægerstenalder."];
@@ -54,7 +53,8 @@ function data_f(e){
   
  data1[9]= ["Mønsted Kalkgrube"];
  data2[9]= ["Salt i undergrunden har løftet kalken, hvor landets største under jordiske mine blev anlagt."];
- data3[9]= ["www.naturnet.dk*www.monsted-kalkgruber.dk"];
+ data3[9]= ["www.naturnet.dk"];
+ data4[9]= ["www.monsted-kalkgruber.dk"];
   
  data1[10]= ["Karlby-Sangstrup Klinter"];
  data2[10]= ["Djurslands hvide klinter mod Kattegat består af bryozokalk i tydelige banker."];
@@ -110,11 +110,13 @@ function data_f(e){
   
  data1[23]= ["Stevns Klint"];
  data2[23]= ["De nederste lag i klinten ved Højerup Kirke indeholder det yngste skrivekridt."];
- data3[23]= ["www.naturnet.dk*www.oestsjaellands-museum.dk"];
+ data3[23]= ["www.naturnet.dk"];
+ data4[23]= ["www.oestsjaellands-museum.dk"];
   
  data1[24]= ["Faxe Kalkbrud"];
  data2[24]= ["I Danmarks største hul graves stadig koralkalk fra forstenede koralrev."];
- data3[24]= ["www.naturnet.dk*www.oessjaellands-museum.dk"];
+ data3[24]= ["www.naturnet.dk"];
+ data4[24]= ["www.oessjaellands-museum.dk"];
   
  data1[25]= ["Strandegårds Dyrehave"];
  data2[25]= ["Her spejler bøgen sin top i bølgen blå ved klinten med lag fra istid og mellemistid."];
@@ -126,7 +128,8 @@ function data_f(e){
   
  data1[27]= ["Møns Klint"];
  data2[27]= ["Istidens sidste glesjerfremstød skubbede kridtlagene op til en højde af mere end 100 m."];
- data3[27]= ["www.naturnet.dk*www.moensklint.dk"];
+ data3[27]= ["www.naturnet.dk"];
+ data4[27]= ["www.moensklint.dk"];
   
  data1[28]= ["Pomle Nakke"];
  data2[28]= ["Under bøgeskoven har havet eroderet en klint med lag fra istiden."];
@@ -137,7 +140,10 @@ function data_f(e){
   
   resultat += "<strong>"+data1[tmpNumber]+"</strong><br />";
   resultat += "<p>"+data2[tmpNumber]+"</p>";
-  resultat += "<p>---"+data3[tmpNumber]+"</p>";
+  resultat += "<a href='http://"+data3[tmpNumber]+"'>"+data3[tmpNumber]+"</a>";
+  if(data4[tmpNumber]){
+    resultat += "<br /><a href='http://"+data4[tmpNumber]+"'>"+data4[tmpNumber]+"</a>";
+  }
   
   document.getElementById("data").innerHTML = resultat;
   return false

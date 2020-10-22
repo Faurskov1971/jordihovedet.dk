@@ -94,7 +94,17 @@ p {
 }
 
 /*Her starter Brians styles*/
-
+/*De næste linier er sat for at få skoleavisen vises i 100%*/
+/*
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+}
+*/
+.slick-dots li button:before {
+  font-size: 12px !important;
+}
 .divContent {
   background-color: #fff;
   padding: 25px;

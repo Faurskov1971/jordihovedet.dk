@@ -3,9 +3,9 @@ let gtm = ''
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Bootstrap Strapi Starter`,
+    title: `Skoleavisen`,
     description: `Gatsby + Strapi = <3`,
-    author: `Jeremy Lynch`,
+    author: `Metro Expres & Turbine Forlaget`,
     siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
     phone: '12345',
     fax: '12345',
