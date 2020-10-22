@@ -4,6 +4,7 @@
   {"name": "Quiz", "url": "/quiz"},
   {"name": "Skoleavis", "url": "/skoleavis"},
   {"name": "Film", "url": "/film"},
+  {"name": "Artikler", "url": "/artikler"},
   {"name": "Options", "url": "", "dropdownItems": [
     {"name": "Option 1", "url": "/test"},
     {"name": "Option 2", "url": "/test"},
