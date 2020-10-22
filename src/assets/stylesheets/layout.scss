@@ -108,6 +108,7 @@ p {
 .divContent {
   background-color: #fff;
   padding: 25px;
+  padding-bottom: 10px;
 }
 footer {
   background-color: #686110 !important;
@@ -159,4 +160,16 @@ footer {
   .paddingRight {
     padding-right: 15px;
   }
+}
+.floatLeft {
+  float: left;
+}
+.filmInfobox {
+  width: 300px;
+  height: 200px;
+  float: left;
+  padding-left: 20px;
+}
+iframe {
+  max-width: 100%;
 }

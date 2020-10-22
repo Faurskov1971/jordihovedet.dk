@@ -27,22 +27,22 @@ export default () => (
               <br />
             <br />
             </p>
-                        <Row className="d-flex justify-content-center">
-                                <Col md={6} className="divContent">
-                                  God fornøjelse!
-                                  <br /><br />
-                                  Venlig hilsen
-                                  <br /><br />
-                                  Jordihovedet.dk
-                                </Col>
+              <Row className="d-flex justify-content-center">
+                      <Col md={6} className="divContent">
+                        God fornøjelse!
+                        <br /><br />
+                        Venlig hilsen
+                        <br /><br />
+                        Jordihovedet.dk
+                      </Col>
 
-                                <Col md={6}>
-                                  <img src={forside_small_bg} alt="Forstenet søpindsvin" />
-                                  <br />
-                                  Forstenet søpindsvin.   
-                                  Fundet ved Møns Klint             
-                                </Col>
-                        </Row>
+                      <Col md={6}>
+                        <img src={forside_small_bg} alt="Forstenet søpindsvin" />
+                        <br />
+                        Forstenet søpindsvin.   
+                        Fundet ved Møns Klint             
+                      </Col>
+              </Row>
             
             </Col>
           </Row>
@@ -57,7 +57,7 @@ export default () => (
               <br />
               Geologi er spændende i klasseværelset, men det er endnu mere spændende selv at besøge Danmarks geologiske seværdigheder. Tjek et bredt udvalg ud her!
               <br />
-              <Link to="danmarkskort">Klik her</Link>
+              <Link to="/danmarkskort">Klik her</Link>
               </div>
             </div>
               </Col>
@@ -72,7 +72,7 @@ export default () => (
       <br />
       Jordihovedet.dk har sendt et kamerahold rundt til de fire museer og besøgscentre, der står bag projektet. Se hvad man kan opleve!
       <br />
-      <Link to="film">Klik her</Link>
+      <Link to="/film">Klik her</Link>
       </div>
       </div>  
               </Col>
@@ -86,7 +86,7 @@ export default () => (
       <br />
       Hvem har mest jord i hovedet?
       <br />
-      <Link to="quiz">Klik her</Link>
+      <Link to="/quiz">Klik her</Link>
       </div>
 </div>
               </Col>

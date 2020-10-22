@@ -3,7 +3,6 @@ import React from "react"
 import { Container, Row, Col } from 'reactstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import avis_bg from '../assets/images/avis_bg.jpg'
 import Slider from '../components/slider'
 
 
