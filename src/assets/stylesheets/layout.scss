@@ -62,7 +62,7 @@ $gradient: linear-gradient(210deg, #943cff 0%, #dd45d3 40.13%, #fc9a57 90%);
 }
 
 body {
-  font-family: "HKGrotesk", sans-serif;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
   overflow-x: hidden;
   background-image: url(../images/baggrund_main.jpg);
   width: 100%;
@@ -70,6 +70,9 @@ body {
   background-repeat: repeat-x;
   background-position: bottom;
   background-color: #349acb;
+  font-size: 14px;
+  color: #5c5c5c;
+  letter-spacing: 1px;
 }
 /*
 .bg-light {
@@ -77,8 +80,11 @@ body {
 }
 */
 h1 {
-  font-family: "HKGrotesk";
-  font-weight: 500;
+  color: #6d6d6d;
+  font-size: 30px;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  padding-bottom: 14px;
 }
 
 p {
@@ -94,14 +100,7 @@ p {
 }
 
 /*Her starter Brians styles*/
-/*De næste linier er sat for at få skoleavisen vises i 100%*/
-/*
-*,
-*::before,
-*::after {
-  box-sizing: content-box;
-}
-*/
+
 .slick-dots li button:before {
   font-size: 12px !important;
 }
@@ -154,6 +153,9 @@ footer {
   padding-right: 0;
 }
 @media screen and (max-width: 770px) {
+  .slick-dots {
+    position: relative !important;
+  }
   .paddingLeft {
     padding-left: 15px;
   }
@@ -175,4 +177,34 @@ iframe {
 }
 .vp-title {
   display: none !important;
+}
+a {
+  color: #993300;
+  text-decoration: underline !important;
+}
+a.nav-link {
+  color: #000000;
+  text-decoration: none !important;
+}
+a:active {
+  background-color: #ee7f26;
+}
+.active {
+  background-color: #ee7f26;
+  color: #fff;
+  padding: 10px;
+}
+.bg-light {
+  background-color: #349acb !important;
+}
+.slick-dots li {
+  margin: 15px 5px;
+  text-align: center;
+  font-size: 24px;
+}
+.slick-dots {
+  bottom: -10px !important;
+}
+.slick-slide img {
+  max-width: 100%;
 }

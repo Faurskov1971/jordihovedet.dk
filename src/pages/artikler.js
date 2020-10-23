@@ -3,6 +3,7 @@ import React from "react"
 import { Container, Row, Col } from 'reactstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Link from "../components/link"
 import artikler_bg from '../assets/images/artikler_bg.jpg'
 import pdf1 from '../assets/images/pdf/En_dramatisk_graense.pdf'
 import pdf2 from '../assets/images/pdf/Koralrevet_ved_Faxe.pdf'
@@ -40,9 +41,9 @@ Der er artikler til tiden for 70, 65, 63, 55 og 10 millioner år siden.
   Handler om de nye livsformer, der dukkede op for ca. 63 millioner år siden – lige efter katastrofen med meteornedslaget. Passer til side 8-9 i skoleavisen.
 </p>
 <p>
-  ”<a href = "/fur" target="_blank" rel="noreferrer">
+  ”<Link to ="/fur">
   Klimaforandring på vulkansk kulkraft
-  </a>”
+  </Link>”
 <br />
   Handler om gigantiske vulkanudbrud i Nordatlanten for 55 millioner år siden. Passer til side 10-11 i skoleavisen.
 </p>

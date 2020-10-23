@@ -4,16 +4,16 @@ import styled from "styled-components"
 
 import '../../node_modules/slick-carousel/slick/slick.css';
 import '../../node_modules/slick-carousel/slick/slick-theme.css';
-import skoleavis1 from "../assets/images/skoleavisen/Skoleavisen_1-1.png"
-import skoleavis2 from "../assets/images/skoleavisen/Skoleavisen_2-2.png"
-import skoleavis3 from "../assets/images/skoleavisen/Skoleavisen_3-3.png"
-import skoleavis4 from "../assets/images/skoleavisen/Skoleavisen_4-4.png"
-import skoleavis5 from "../assets/images/skoleavisen/Skoleavisen_5-5.png"
-import skoleavis6 from "../assets/images/skoleavisen/Skoleavisen_6-6.png"
-import skoleavis7 from "../assets/images/skoleavisen/Skoleavisen_7-7.png"
-import skoleavis8 from "../assets/images/skoleavisen/Skoleavisen_8-8.png"
-import skoleavis9 from "../assets/images/skoleavisen/Skoleavisen_9-9.png"
-import skoleavis10 from "../assets/images/skoleavisen/Skoleavisen_10-10.png"
+import skoleavis1 from "../assets/images/skoleavisen/Skoleavisen_1-1.jpg"
+import skoleavis2 from "../assets/images/skoleavisen/Skoleavisen_2-2.jpg"
+import skoleavis3 from "../assets/images/skoleavisen/Skoleavisen_3-3.jpg"
+import skoleavis4 from "../assets/images/skoleavisen/Skoleavisen_4-4.jpg"
+import skoleavis5 from "../assets/images/skoleavisen/Skoleavisen_5-5.jpg"
+import skoleavis6 from "../assets/images/skoleavisen/Skoleavisen_6-6.jpg"
+import skoleavis7 from "../assets/images/skoleavisen/Skoleavisen_7-7.jpg"
+import skoleavis8 from "../assets/images/skoleavisen/Skoleavisen_8-8.jpg"
+import skoleavis9 from "../assets/images/skoleavisen/Skoleavisen_9-9.jpg"
+import skoleavis10 from "../assets/images/skoleavisen/Skoleavisen_10-10.jpg"
 
 import skoleavis11 from "../assets/images/skoleavisen/Skoleavisen_11-11.png"
 import skoleavis12 from "../assets/images/skoleavisen/Skoleavisen_12-12.png"
@@ -182,7 +182,9 @@ export default () => {
           </div>
         </div>
 
-<a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+
+      </Slider>
+      <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="sr-only">Forrige</span>
 </a>
@@ -190,7 +192,6 @@ export default () => {
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="sr-only">Næste</span>
 </a>
-      </Slider>
     </SliderContainer>
   )
 }

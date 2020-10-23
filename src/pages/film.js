@@ -17,7 +17,14 @@ export default () => (
       <div className="py-5">
         <Container>
           <Row className="d-flex justify-content-center">
+          <Col md={12} className="divContent">
+          <h1>Film</h1>
+            <p>
+            Jordihovedet.dk har sendt et kamerahold rundt til de fire museer og besøgscentre, der står bag projektet.
+            </p>
+            </Col>
           <Col md={3} className="divContent">
+          
           <ul>
             <li><Link to="/film_1">Geocenter Møns klint</Link></li>
             <li><Link to="/film_2">Fur Museum</Link></li>
@@ -27,16 +34,7 @@ export default () => (
             
           </Col>
             <Col md={9} className="divContent">
-            <h1>Film</h1>
-            <p>
-            Jordihovedet.dk har sendt et kamerahold rundt til de fire museer og besøgscentre, der står bag projektet.
-            </p>
-            </Col>
-          </Row>
-
-          <Row className="d-flex justify-content-center">
-            <Col md={3} className="divContent"></Col>
-            <Col md={9} className="divContent">
+  
                 <Link to="/film_1">
                   <img src={film1} className="floatLeft" alt="Geocenter Møns klint"/>
                 </Link>

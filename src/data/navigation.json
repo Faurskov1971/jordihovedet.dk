@@ -5,9 +5,7 @@
   {"name": "Skoleavis", "url": "/skoleavis"},
   {"name": "Film", "url": "/film"},
   {"name": "Artikler", "url": "/artikler"},
-  {"name": "Options", "url": "", "dropdownItems": [
-    {"name": "Option 1", "url": "/test"},
-    {"name": "Option 2", "url": "/test"},
-    {"name": "Reset", "url": "/test"}
-  ]}
+  {"name": "Opgaver", "url": "/opgaver"},
+  {"name": "Links", "url": "/links"},
+  {"name": "Til lærerne", "url": "/til-laererne"}
 ]
