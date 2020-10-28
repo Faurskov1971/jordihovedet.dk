@@ -29,7 +29,7 @@ export default () => (
             <li><Link to="/film_1">Geocenter Møns klint</Link></li>
             <li><Link to="/film_2">Fur Museum</Link></li>
             <li><Link to="/film_3">Østsjællands Museum</Link></li>
-            <li><Link to="/film_4">Museum Sønderjylland Gram</Link></li>
+            <li><Link to="/film_4">Museum Sønderjylland, Gram</Link></li>
           </ul>
             
           </Col>
@@ -58,7 +58,7 @@ export default () => (
                 <div className="filmInfobox">
                   <p>
                   <strong>Fur Museum</strong><br />
-                    Se filmen om en skoletjeneste lidt udover det sædvanlige.
+                  En film med blandt andre stjernen ”Luffe”, verdens bedst bevarede skildpadde-fossil.
                     <br /><br />
                     <Link to="/film_2">Klik her for at se filmen</Link>
                   </p>
@@ -76,7 +76,7 @@ export default () => (
                 <div className="filmInfobox">
                   <p>
                   <strong>Østsjællands Museum</strong><br />
-                    Se filmen om en skoletjeneste lidt udover det sædvanlige.
+                  ”Narreguld”, kalkfossiler og meget mere i en film om Danmarks største hul.
                     <br /><br />
                     <Link to="/film_3">Klik her for at se filmen</Link>
                   </p>
@@ -92,8 +92,8 @@ export default () => (
                 </Link>
                 <div className="filmInfobox">
                   <p>
-                  <strong>Sønderjylland Gram</strong><br />
-                    Se filmen om en skoletjeneste lidt udover det sædvanlige.
+                  <strong>Museum Sønderjylland, Gram</strong><br />
+                  Tag med kameraet på jagt efter hvaltænder.
                     <br /><br />
                     <Link to="/film_4">Klik her for at se filmen</Link>
                   </p>

@@ -91,7 +91,7 @@ Handler om gigantiske vulkanudbrud i Nordatlanten for 55 millioner år siden. Pa
 <br /><br />
 
 <a href = {fur08} target="_blank" rel="noreferrer">
-  8 havkrybdyr - de dyre drenge
+  8 Havkrybdyr - de dyre drenge
 </a>
 
 <br /><br />
@@ -145,13 +145,13 @@ Handler om gigantiske vulkanudbrud i Nordatlanten for 55 millioner år siden. Pa
 <br /><br />
 
 <a href = {fur17} target="_blank" rel="noreferrer">
-  17 kvik - former
+  17 Kvik - former
 </a>
 
 <br /><br />
 
 <a href = {fur18} target="_blank" rel="noreferrer">
-  18 Danekræ - Loven
+  18 Danekræ - loven
 </a>
 
 <br /><br />
@@ -163,7 +163,7 @@ Handler om gigantiske vulkanudbrud i Nordatlanten for 55 millioner år siden. Pa
 <br /><br />
 
 <a href = {fur20} target="_blank" rel="noreferrer">
-  20 museer, bøger og links
+  20 Museer, bøger og links
 </a>
 
 </p>

@@ -14,13 +14,13 @@ export default () => (
         <Container>
           <Row className="d-flex justify-content-center">
             <Col md={6} className="divContent">
-            <img src={index_logo} className="imgSize" alt="Logo" />
+              <img src={index_logo} className="imgSize" alt="Logo" />
             </Col>
 
             <Col md={6} className="divContent">
             <h1>Velkommen til Jord i Hovedet</h1>
             <p>
-              Geologi er spændende og underholdende. Det håber vi, går op for dig, når du surfer rundt på denne hjemmeside eller fordyber dig i skoleavisen, vi har udgivet til projektet.
+              Geologi er spændende og underholdende. Det, håber vi, går op for dig, når du surfer rundt på denne hjemmeside eller fordyber dig i skoleavisen, vi har udgivet til projektet.
               Det er Danmarks geologiske historie, det handler om. Det er en meget lang og spændende historie, som man kan beskæftige sig med hele livet, hvis det skulle være.
               Vi har valgt en række højdepunkter ud og gjort det lidt nemmere for dig at få jord i hovedet – ligesom vi har det.
               <br />
@@ -69,7 +69,7 @@ export default () => (
       <div className="kasseRight"> 	
       <span className="kasseHeading">Geo-trailere!</span>
       <br />
-      Jordihovedet.dk har sendt et kamerahold rundt til de fire museer og besøgscentre, der står bag projektet. Se hvad man kan opleve!
+      Jordihovedet.dk har sendt et kamerahold rundt til de fire museer og besøgscentre, der står bag projektet. Se, hvad man kan opleve!
       <br />
       <Link to="/film">Klik her</Link>
       </div>

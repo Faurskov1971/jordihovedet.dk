@@ -15,7 +15,7 @@ function data_f(e){
   const data4 = [];
   
  data1[0]= ["Rubjerg Knude - Lønstrup Klint"];
- data2[0]= ["Istidens gletsjere skubbede ler og sandlag op i stejle flager, som se i klinten."];
+ data2[0]= ["Istidens gletsjere skubbede ler og sandlag op i stejle flager, som ses i klinten."];
  data3[0]= ["www.naturnet.dk"];
  data4[0]= ["www.rubjergknude.dk"];
   
@@ -25,11 +25,11 @@ function data_f(e){
  data4[1]= ["www.bulbjerg.dk"];
   
  data1[2]= ["Vokslev Kalkgrav"];
- data2[2]= ["I kalkgraven, hvor brydning er ophørt, er det stadig muligt at studere skrivekridt mm."];
+ data2[2]= ["I kalkgraven, hvor brydning er ophørt, er det stadig muligt at studere skrivekridt m.m."];
  data3[2]= ["www.naturnet.dk"];
   
- data1[3]= ["Agersund Kalkværk"];
- data2[3]= ["Dankalk graver skrivekridt i et stort brud. Kridtet bruges bla. til jordforbedring i landbruget."];
+ data1[3]= ["Aggersund Kalkværk"];
+ data2[3]= ["Dankalk graver skrivekridt i et stort brud. Kridtet bruges bl.a. til jordforbedring i landbruget."];
  data3[3]= ["www.dankalk.dk"];
   
  data1[4]= ["Molermuseet"];
@@ -46,7 +46,7 @@ function data_f(e){
  data4[6]= ["www.furmuseum.dk"];
   
  data1[7]= ["Ertebølle Hoved"];
- data2[7]= ["Klint med moler og askelag danner et forbjerg i Limfjorden tæt ved den berømte køkkenmødding fra Jægerstenalder."];
+ data2[7]= ["Klint med moler og askelag danner et forbjerg i Limfjorden tæt ved den berømte køkkenmødding fra jægerstenalder."];
  data3[7]= ["www.naturnet.dk"];
   
  data1[8]= ["Bovbjerg"];
@@ -54,7 +54,7 @@ function data_f(e){
  data3[8]= ["www.blst.dk"];
   
  data1[9]= ["Mønsted Kalkgrube"];
- data2[9]= ["Salt i undergrunden har løftet kalken, hvor landets største under jordiske mine blev anlagt."];
+ data2[9]= ["Salt i undergrunden har løftet kalken, hvor landets største underjordiske mine blev anlagt."];
  data3[9]= ["www.naturnet.dk"];
  data4[9]= ["www.monsted-kalkgruber.dk"];
   
@@ -79,11 +79,11 @@ function data_f(e){
  data3[14]= ["www.naturnet.dk"];
   
  data1[15]= ["Sønderby Klint"];
- data2[15]= ["Foldede istidslag er dækket af vandretliggende yngre morænelag.dk"];
+ data2[15]= ["Foldede istidslag er dækket af vandretliggende yngre morænelag."];
  data3[15]= ["www.sns.dk"];
   
  data1[16]= ["Fyns Hoved"];
- data2[16]= ["Klinter, der nedbrydes af havet, som danner smukke odder af sandet og gruset.dk"];
+ data2[16]= ["Klinter, der nedbrydes af havet, danner smukke odder af sandet og gruset"];
  data3[16]= ["www.naturnet.dk"];
   
  data1[17]= ["Klintholm Kalkgrav"];
@@ -91,7 +91,7 @@ function data_f(e){
  data3[17]= ["www.naturnet.dk"];
   
  data1[18]= ["Ristinge Klint"];
- data2[18]= ["Lag fra istid og mellemistid er skubbet sammen i falger af isfremstød fra sydøst."];
+ data2[18]= ["Lag fra istid og mellemistid er skubbet sammen i flager af isfremstød fra sydøst."];
  data3[18]= ["www.blst.dk"];
   
  data1[19]= ["Naturbornholm"];
@@ -103,7 +103,7 @@ function data_f(e){
  data3[20]= ["www.naturnet.dk"];
   
  data1[21]= ["Karlstrup Kalkgrav"];
- data2[21]= ["Grænsen mellem Kridttid og Tertiærtid kan ses i den nordøstlige del af kalkgraven lige over søens vandspejl."];
+ data2[21]= ["Grænsen mellem kridttid og tertiærtid kan ses i den nordøstlige del af kalkgraven lige over søens vandspejl."];
  data3[21]= ["www.naturnet.dk"];
   
  data1[22]= ["Reersø"];
@@ -124,8 +124,8 @@ function data_f(e){
  data2[25]= ["Her spejler bøgen sin top i bølgen blå ved klinten med lag fra istid og mellemistid."];
  data3[25]= ["www.stam.dk"];
   
- data1[26]= ["Knushoved Odde"];
- data2[26]= ["Den 15 km lange odde består af små morænebakker, bundet sammen af landtanger."];
+ data1[26]= ["Knudshoved Odde"];
+ data2[26]= ["Den 15 km lange odde består af små morænebakker bundet sammen af landtanger."];
  data3[26]= ["www.naturnet.dk"];
   
  data1[27]= ["Møns Klint"];
@@ -166,7 +166,7 @@ Geologi er spændende i klasseværelset, men det er endnu mere spændende selv a
 </p>
 <h2>Danmarkskort med ekspeditionsmuligheder.</h2>
 <p>
-Her har du Danmark. Prikkerne er et udvalg af geologiske seværdigheder, der er værd at besøge. Vi har valgt dem ud, så alle skulle have mulighed for at finde et sted at besøge i nærheden af skolen. Der vil være mange flere prikker til skolestart i august.
+Her har du Danmark. Prikkerne er et udvalg af geologiske seværdigheder, der er værd at besøge. Vi har valgt dem ud, så alle skulle have mulighed for at finde et sted at besøge i nærheden af skolen.
 </p>
     </Col>
 </Row>

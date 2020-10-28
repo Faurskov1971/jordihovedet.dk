@@ -16,7 +16,7 @@ export default () => (
           <Col md={12} className="divContent">
             <h1>Quiz</h1>
             <p>
-            Prøv jord-i-hovedet-quizzen!
+            Prøv Jord i Hovedet-quizzen!
             </p>
           </Col>
           <Col className="divContent" md={2}>

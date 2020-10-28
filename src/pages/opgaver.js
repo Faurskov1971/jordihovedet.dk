@@ -26,7 +26,7 @@ export default () => (
             <Col md={6} className="divContent">
             <h1>Opgaver</h1>
             <p>
-              Her er opgaver som passer til indholdet i skoleavisen. For at besvare nogle af spørgsmålene, må du også gå på jagt i artiklerne her på siden for at finde svaret.
+              Her er opgaver, som passer til indholdet i skoleavisen. For at besvare nogle af spørgsmålene må du også gå på jagt i artiklerne her på siden for at finde svaret.
 
               <br /><br />
               
@@ -37,7 +37,7 @@ export default () => (
               <br /><br />
               
               <a href = {opgave2} target="_blank" rel="noreferrer">
-                Opgaver til side 6-7 i skoleavisen -Overgang mellem kridttid og tertiærtid
+                Opgaver til side 6-7 i skoleavisen - Overgang mellem kridttid og tertiærtid
               </a>
 
               <br /><br />
@@ -61,7 +61,7 @@ export default () => (
               <br /><br />
               
               <a href = {opgave6} target="_blank" rel="noreferrer">
-                Opgaver til side 14-15 i skoleavisen -Kvartærtid
+                Opgaver til side 14-15 i skoleavisen - Kvartærtid
               </a>
 
               <br /><br />
@@ -73,7 +73,7 @@ export default () => (
               <br /><br />
               
               <a href = {opgave8} target="_blank" rel="noreferrer">
-                Opgaver til side 18-19 i skoleavisen -Fremtiden
+                Opgaver til side 18-19 i skoleavisen - Fremtiden
               </a>
             </p>
             <img src={opgaver_bg_small} className="imgSize" alt="Logo" />

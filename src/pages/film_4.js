@@ -24,7 +24,7 @@ export default () => (
             <li><Link to="/film_1">Geocenter Møns klint</Link></li>
             <li><Link to="/film_2">Fur Museum</Link></li>
             <li><Link to="/film_3">Østsjællands Museum</Link></li>
-            <li><Link to="/film_4" className="activeSublink">Museum Sønderjylland Gram</Link></li>
+            <li><Link to="/film_4" className="activeSublink">Museum Sønderjylland, Gram</Link></li>
           </ul>
             
           </Col>

@@ -41,21 +41,17 @@ export default () => (
             
             <a href = "https://udinaturen.dk/" target="_blank" rel="noreferrer">
               www.naturnet.dk
-            </a>
-            - søg på det sted ,du gerne vil besøge ,og læs mere.
+            </a> - søg på det sted, du gerne vil besøge, og læs mere.
             
             <br /><br />
             <a href = "https://geo.au.dk/" target="_blank" rel="noreferrer">
-              www.geo.ao.dk
-            </a>
-            - Geologisk Institut på Århus Universitet. Du kan booke et foredrag med             
-            Bo Holm Jacobsen (læs mere på side 16-17 i skoleavisen).
+              www.geo.au.dk
+            </a> - Geologisk Institut på Aarhus Universitet. Du kan booke et foredrag med Bo Holm Jacobsen (læs mere på side 16-17 i skoleavisen).
             <br /><br />
             
              <a href = "https://snm.ku.dk/" target="_blank" rel="noreferrer">
               www.geologi.snm.ku.dk
-             </a>
-             - Geologisk Museum i København. Book en rundvisning - måske bliver det med Jarl du kan møde i skoleavisen på side 21.
+             </a> - Geologisk Museum i København. Book en rundvisning - måske bliver det med Jarl, du kan møde i skoleavisen på side 21.
           </p>
 
             </Col>

@@ -22,8 +22,7 @@ export default () => (
               Læs avisen online. Du bladrer ved at klikke på prikkerne under avisen.
             </p>
             <p>
-              Du kan også downloade avisen som PDF fil.
-              <a href = {skoleavis} target="_blank" rel="noreferrer">Klik her</a>
+              Du kan også downloade avisen som PDF-fil. <a href = {skoleavis} target="_blank" rel="noreferrer">Klik her</a>
                
             </p>
 
@@ -35,13 +34,11 @@ export default () => (
             <Col md={12} className="divContent">
               
             <p>
-              ”Jord i hovedet” består af denne hjemmeside og en skoleavis produceret i samarbejde med <a href = "https://turbine.dk/" target="_blank" rel="noreferrer">TURBINE forlaget</a> og dagbladet metroXpress. Avisen er sendt ud til alle landets skoler i klassesæt og kan samtidig læses her på siden.
+              Jord i Hovedet består af denne hjemmeside og en skoleavis produceret i samarbejde med <a href = "https://turbine.dk/" target="_blank" rel="noreferrer">TURBINE forlaget</a> og dagbladet metroXpress. Avisen er sendt ud til alle landets skoler i klassesæt og kan samtidig læses her på siden.
                <br /><br />
               Opgaver til avisen samt lærervejledning finder du under fanebladene <Link to="/opgaver">opgaver</Link> og <Link to="/til-laererne">til lærerne</Link>.
               <br /><br />
               Yderligere eksemplarer af skoleavisen kan købes på <a href = "https://turbine.dk/" target="_blank" rel="noreferrer">www.turbineforlaget.dk</a>
-              
-              
             </p>
             </Col>
           </Row>

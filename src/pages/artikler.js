@@ -22,7 +22,7 @@ export default () => (
             <Col md={6} className="divContent">
             <h1>Artikler</h1>
 <p>
-  Her kan du finde en række artikler, der går et spadestik dybere end skoleavisen. Det kan være en god idé at blade avisen igennem og finde det emne, der interesserer dig mest, og bagefter finde den artikel her, der uddyber lige præcis det emne.
+  Her kan du finde en række artikler, der går et spadestik dybere end skoleavisen. Det kan være en god idé at bladre avisen igennem og finde det emne, der interesserer dig mest, og bagefter finde den artikel her, der uddyber lige præcis det emne.
 </p>
  
 <p>

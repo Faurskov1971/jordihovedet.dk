@@ -21,11 +21,11 @@ export default () => (
         <Container>
           <Row className="d-flex justify-content-center">
             <Col md={6} className="divContent">
-            <h1>Til Lærerne</h1>
+            <h1>Til lærerne</h1>
             <p>
               Her kan du finde en lærervejledning samt en oversigt over materialets anvendelighed i forhold til Fælles Mål.
               <br /><br />
-              Derudover kan du løse en artikel om uformel læring, og om hvofor det er en god idé at komme ud af klasseværelset engang i mellem.
+              Derudover kan du løse en artikel om uformel læring, og om hvofor det er en god idé at komme ud af klasseværelset engang imellem.
               <br /><br />
               <a href = {Laerervejledning} target="_blank" rel="noreferrer">
                 Lærervejledning
