@@ -4,9 +4,8 @@ import { Container, Row, Col } from 'reactstrap'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import index_logo from '../assets/images/index_logo.jpg'
-import forside_small_bg from '../assets/images/forside_small_bg.jpg'
+import forside_small_bg from "../assets/images/forside_small_bg.jpg"
 import Link from "../components/link"
-
 
 export default () => (
   <Layout>
@@ -36,10 +35,10 @@ export default () => (
                         Jordihovedet.dk
                       </Col>
 
-                      <Col md={6}>
+                      <Col md={6} className="frontSmallText">
                         <img src={forside_small_bg} alt="Forstenet søpindsvin" />
                         <br />
-                        Forstenet søpindsvin.   
+                        Forstenet søpindsvin.<br />
                         Fundet ved Møns Klint             
                       </Col>
               </Row>

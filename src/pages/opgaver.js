@@ -77,6 +77,10 @@ export default () => (
               </a>
             </p>
             <img src={opgaver_bg_small} className="imgSize" alt="Logo" />
+            <div className="frontSmallText">
+              Fossil af blæksprutte. <br />
+              Fundet ved Faxe Kalkbrud
+            </div>
             </Col>
             <Col md={6} className="divContent">
             <br /><br />

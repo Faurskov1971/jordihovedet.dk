@@ -23,13 +23,13 @@ export default () => (
           <ul>
             <li><Link to="/film_1">Geocenter Møns klint</Link></li>
             <li><Link to="/film_2">Fur Museum</Link></li>
-            <li><Link to="/film_3">Østjyllands Museum</Link></li>
+            <li><Link to="/film_3" className="activeSublink">Østsjællands Museum</Link></li>
             <li><Link to="/film_4">Museum Sønderjylland Gram</Link></li>
           </ul>
             
           </Col>
             <Col md={9} className="divContent">
-                  <iframe title="Østsjællands Museum" src="https://player.vimeo.com/video/470915098" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+            <iframe title="Østsjællands Museum" src="https://player.vimeo.com/video/470915098" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
             </Col>
           </Row>          
       

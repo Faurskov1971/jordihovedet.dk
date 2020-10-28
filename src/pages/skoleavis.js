@@ -35,8 +35,7 @@ export default () => (
             <Col md={12} className="divContent">
               
             <p>
-              ”Jord i hovedet” består af denne hjemmeside og en skoleavis produceret i samarbejde med <a href = "https://turbine.dk/" target="_blank" rel="noreferrer">TURBINE forlaget</a>
-               og dagbladet metroXpress. Avisen er sendt ud til alle landets skoler i klassesæt og kan samtidig læses her på siden.
+              ”Jord i hovedet” består af denne hjemmeside og en skoleavis produceret i samarbejde med <a href = "https://turbine.dk/" target="_blank" rel="noreferrer">TURBINE forlaget</a> og dagbladet metroXpress. Avisen er sendt ud til alle landets skoler i klassesæt og kan samtidig læses her på siden.
                <br /><br />
               Opgaver til avisen samt lærervejledning finder du under fanebladene <Link to="/opgaver">opgaver</Link> og <Link to="/til-laererne">til lærerne</Link>.
               <br /><br />

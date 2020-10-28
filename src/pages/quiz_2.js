@@ -21,14 +21,14 @@ export default () => (
           </Col>
           <Col className="divContent" md={2}>
           <ul>
-            <li className="activeSublink"><Link to="/quiz">Quiz 1</Link></li>
-            <li><Link to="/quiz_2">Quiz 2</Link></li>
+            <li><Link to="/quiz">Quiz 1</Link></li>
+            <li className="activeSublink"><Link to="/quiz_2">Quiz 2</Link></li>
 
           </ul>
           </Col>
             <Col md={10} className="divContent paddingTop">
               <iframe 
-              src="https://faurskov.com/jordihovedet/quiz1/" 
+              src="https://faurskov.com/jordihovedet/quiz2/" 
               width="100%"
               height="700px"
               title="Quiz"></iframe>

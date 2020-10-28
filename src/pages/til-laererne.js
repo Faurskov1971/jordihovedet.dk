@@ -45,10 +45,11 @@ export default () => (
               <br />
               <img src={til_laeren_small_bg} className="imgSize" alt="Logo" />
               <br />
-
-              10.000.000 år gammel hajtand.
+            <div className="frontSmallText">
+            10.000.000 år gammel hajtand.
               <br />
-              Fundet i Gram Lergrav. 
+              Fundet i Gram Lergrav.
+            </div>
             </p>
             
             </Col>

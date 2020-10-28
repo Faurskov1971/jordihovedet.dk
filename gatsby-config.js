@@ -4,13 +4,13 @@ let gtm = ''
 module.exports = {
   siteMetadata: {
     title: `Skoleavisen`,
-    description: `Gatsby + Strapi = <3`,
+    description: `jordihovedet.dk`,
     author: `Metro Expres & Turbine Forlaget`,
-    siteUrl: `https://gatsby-strapi-starter.netlify.com/`,
+    siteUrl: `https://faurskov.com/jordihovedet/`,
     phone: '12345',
     fax: '12345',
-    address: '123 fake street',
-    email: 'contact@test.com'
+    address: '',
+    email: ''
 
   },
   plugins: [
@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: './src/assets/images/gatsby-icon.png'
+        logo: './src/assets/images/index_logo.jpg'
       }
     },
     `gatsby-transformer-sharp`,
