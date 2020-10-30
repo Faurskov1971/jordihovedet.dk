@@ -58,7 +58,6 @@ export default () => (
               <img src={til_laeren_bg} className="imgSize" alt="Til læreren" />
             </Col>
           </Row>
-      
         </Container>
       </div>
   </Layout>

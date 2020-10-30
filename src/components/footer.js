@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Row, Col} from 'reactstrap'
 import styled from "styled-components"
-import img1 from "../assets/images/logo_moen.jpg"
+import img1 from "../assets/images/logo_mon_sort.png"
 import img2 from "../assets/images/logo_fur.jpg"
 import img3 from "../assets/images/logo_oestsjaelland.jpg"
 import img4 from "../assets/images/logo_soenderjylland.jpg"
@@ -29,12 +29,12 @@ export default () => (
   <Footer>
     <Container>
       <Row>
-        <Col md={7}>
+        <Col md={6}>
         </Col>
-        <Col md={1}>
+        <Col md={2}>
     <a href="https://moensklint.dk/" target="_blank" rel="noopener noreferrer" >
     <figure>
-      <img src={img1} width="93" height="72" alt="Geocenter Møn" />
+      <img src={img1} className="imgSize paddingTop" alt="Geocenter Møn" />
     </figure>
         </a>
     </Col>
