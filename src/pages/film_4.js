@@ -8,7 +8,7 @@ import Link from "../components/link"
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Film" />
       
       <div className="py-5">
         <Container>

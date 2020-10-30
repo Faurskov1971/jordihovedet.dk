@@ -32,7 +32,7 @@ import fur20 from '../assets/images/pdf/fur/20.pdf'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Fur" />
       
       <div className="py-5">
         <Container>
@@ -171,7 +171,7 @@ Handler om gigantiske vulkanudbrud i Nordatlanten for 55 millioner år siden. Pa
             
             </Col>
             <Col md={4} className="divContent">
-            <img src={artikler_fur_bg} className="imgSize" alt="Logo" />
+            <img src={artikler_fur_bg} className="imgSize" alt="Klimaforandring på vulkansk kulkraft" />
             </Col>
           </Row>
       

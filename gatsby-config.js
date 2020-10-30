@@ -3,7 +3,7 @@ let gtm = ''
 
 module.exports = {
   siteMetadata: {
-    title: `Skoleavisen`,
+    title: `jordihovedet.dk`,
     description: `jordihovedet.dk`,
     author: `Metro Expres & Turbine Forlaget`,
     siteUrl: `https://faurskov.com/jordihovedet/`,

@@ -11,7 +11,7 @@ import skoleavis from '../assets/images/pdf/skoleavis/Skoleavisen.pdf'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Skoleavis" />
       
       <div className="py-5">
         <Container>

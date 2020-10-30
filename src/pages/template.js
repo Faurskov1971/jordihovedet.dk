@@ -8,7 +8,7 @@ import index_logo from '../assets/images/index_logo.jpg'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Forside" />
       
       <div className="py-5">
         <Container>

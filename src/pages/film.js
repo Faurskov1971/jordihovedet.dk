@@ -12,7 +12,7 @@ import film4 from '../assets/images/film_moen_pix_1.jpg'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Film" />
       
       <div className="py-5">
         <Container>
@@ -53,7 +53,7 @@ export default () => (
             <Col md={3} className="divContent"></Col>
             <Col md={9} className="divContent">
                 <Link to="/film_2">
-                  <img src={film2} className="floatLeft" alt="Geocenter Møns klint"/>
+                  <img src={film2} className="floatLeft" alt="Fur Museum"/>
                 </Link>
                 <div className="filmInfobox">
                   <p>
@@ -71,7 +71,7 @@ export default () => (
             <Col md={3} className="divContent"></Col>
             <Col md={9} className="divContent">
                 <Link to="/film_3">
-                  <img src={film3} className="floatLeft" alt="Geocenter Møns klint"/>
+                  <img src={film3} className="floatLeft" alt="Østsjællands Museum"/>
                 </Link>
                 <div className="filmInfobox">
                   <p>
@@ -88,7 +88,7 @@ export default () => (
             <Col md={3} className="divContent"></Col>
             <Col md={9} className="divContent">
                 <Link to="/film_4">
-                  <img src={film4} className="floatLeft" alt="Geocenter Møns klint"/>
+                  <img src={film4} className="floatLeft" alt="Museum Sønderjylland, Gram"/>
                 </Link>
                 <div className="filmInfobox">
                   <p>

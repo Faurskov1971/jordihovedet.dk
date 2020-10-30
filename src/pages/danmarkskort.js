@@ -153,7 +153,7 @@ function data_f(e){
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Danmarkskort" />
       
       <div className="py-5">
         <Container>

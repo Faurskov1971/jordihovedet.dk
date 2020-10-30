@@ -18,7 +18,7 @@ import opgave8 from '../assets/images/pdf/opgaver/Opgaver_s18-19.pdf'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Opgaver" />
       
       <div className="py-5">
         <Container>
@@ -76,7 +76,7 @@ export default () => (
                 Opgaver til side 18-19 i skoleavisen - Fremtiden
               </a>
             </p>
-            <img src={opgaver_bg_small} className="imgSize" alt="Logo" />
+            <img src={opgaver_bg_small} className="imgSize" alt="Fossil af blæksprutte. Fundet ved Faxe Kalkbrud" />
             <div className="frontSmallText">
               Fossil af blæksprutte. <br />
               Fundet ved Faxe Kalkbrud
@@ -85,7 +85,7 @@ export default () => (
             <Col md={6} className="divContent">
             <br /><br />
             <br /><br />
-            <img src={opgaver_bg} className="imgSize" alt="Logo" />
+            <img src={opgaver_bg} className="imgSize" alt="Gå på jagt i artiklerne" />
     
             </Col>
           </Row>

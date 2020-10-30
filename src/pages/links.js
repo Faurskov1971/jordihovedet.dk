@@ -8,7 +8,7 @@ import links_bg from '../assets/images/links_bg.jpg'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Links" />
       
       <div className="py-5">
         <Container>
@@ -56,7 +56,7 @@ export default () => (
 
             </Col>
             <Col md={6} className="divContent">
-            <img src={links_bg} className="imgSize" alt="Logo" />
+            <img src={links_bg} className="imgSize" alt="er har du en række geo-links" />
             </Col>
           </Row>
       

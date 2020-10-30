@@ -15,7 +15,7 @@ import Faelles_maal from '../assets/images/pdf/tilLaererne/Faelles_maal.pdf'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Til lærerne" />
       
       <div className="py-5">
         <Container>
@@ -43,7 +43,7 @@ export default () => (
               
 
               <br />
-              <img src={til_laeren_small_bg} className="imgSize" alt="Logo" />
+              <img src={til_laeren_small_bg} className="imgSize" alt="10.000.000 år gammel hajtand." />
               <br />
             <div className="frontSmallText">
             10.000.000 år gammel hajtand.
@@ -55,7 +55,7 @@ export default () => (
             </Col>
             <Col md={6} className="divContent">
             <br /><br />
-              <img src={til_laeren_bg} className="imgSize" alt="Logo" />
+              <img src={til_laeren_bg} className="imgSize" alt="Til læreren" />
             </Col>
           </Row>
       

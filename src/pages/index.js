@@ -9,12 +9,12 @@ import Link from "../components/link"
 
 export default () => (
   <Layout>
-    <SEO title="Home" />    
+    <SEO title="Forside" />    
       <div className="py-5">
         <Container>
           <Row className="d-flex justify-content-center">
             <Col md={6} className="divContent">
-              <img src={index_logo} className="imgSize" alt="Logo" />
+              <img src={index_logo} className="imgSize" alt="Jord i Hovedet" />
             </Col>
 
             <Col md={6} className="divContent">

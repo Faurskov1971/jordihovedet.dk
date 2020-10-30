@@ -13,7 +13,7 @@ import pdf4 from '../assets/images/pdf/om_megalodon.pdf'
 
 export default () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Artikler" />
       
       <div className="py-5">
         <Container>
@@ -67,7 +67,7 @@ Der er artikler til tiden for 70, 65, 63, 55 og 10 millioner år siden.
             </Col>
             <Col md={6} className="divContent">
             <br /><br /><br />
-            <img src={artikler_bg} className="imgSize" alt="Logo" />
+            <img src={artikler_bg} className="imgSize" alt="Artikler" />
             </Col>
           </Row>
       
